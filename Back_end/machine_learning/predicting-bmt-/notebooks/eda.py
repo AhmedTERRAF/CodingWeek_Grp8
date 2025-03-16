@@ -1,3 +1,20 @@
+########## EDA : Exploratory Data Analysis 
+# L'analyse exploratoire des données (EDA - Exploratory Data Analysis) 
+# est une étape essentielle dans tout projet de machine learning. 
+# Ce script a pour objectif de charger, analyser et visualiser un 
+# jeu de données sur les transplantations de moelle osseuse pédiatriques 
+# (BMT - Bone Marrow Transplants). Il commence par importer les bibliothèques nécessaires 
+# telles que pandas pour la manipulation des données, numpy pour les opérations numériques
+# et matplotlib/seaborn pour la visualisation. 
+# Il met également en place un mécanisme permettant de gérer dynamiquement 
+# la présence de la bibliothèque squarify (utilisée pour les treemaps) 
+# et crée un répertoire dédié aux graphiques générés. Enfin, le script définit 
+# plusieurs fonctions pour explorer les statistiques de base,
+# gérer les valeurs manquantes et représenter graphiquement les tendances 
+# et corrélations au sein du jeu de données. Ces visualisations facilitent 
+# l'interprétation des variables clés et aident à identifier les éventuelles 
+# anomalies avant d'entamer la modélisation prédictive.
+
 import os
 import pandas as pd
 import numpy as np
