@@ -115,3 +115,6 @@ To ensure the integrity of the machine learning pipeline, several test scripts a
 - **`test_model_testing.py`** → Validates model evaluation functions.
 - **`test_model_training.py`** → Checks if model training runs correctly.
 - **`test_shap_analysis.py`** → Tests SHAP analysis for interpretability.
+
+
+❌❌❌TO RUN THE TESTS MAKE SURE TO INSTALL the module shap❌❌❌
