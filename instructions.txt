@@ -4,7 +4,7 @@ This application consists of a **FastAPI backend** and a **React frontend** to p
 ---
 
 ## ⚙️ 1. Backend Setup (FastAPI)
-The backend handles API requests, processes input data, and makes predictions using a trained **LightGBM model**.
+The backend handles API requests, processes input data, and makes predictions using a trained **XgBoost**.
 
 ### ➤ 1.1 Navigate to the Backend Directory
 Ensure you are in the `Back_end` folder:
